@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 960px);
+    padding-right: calc(50% - 960px);
+}
+
+.header_logo {
+    display: flex;
+    width: 137px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo_text {
+    font-family: GilroyBold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: GilroySemiBold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    width: 533px;
+    align-items: center;
+}
+
+.header_colored {
+    color: #F25822;
+}
+
+.header_black {
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    padding-top: 51px;
+    padding-bottom: 96px;
+    gap: 500px;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+}
+
+.left_content {
+    width: 522px;
+}
+
+.header_left_content {
+    font-family: GilroyBold;
+    padding-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.paragraph_left_content {
+    font-family: GilroyMedium;
+    padding-bottom: 37px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    width: 466px;
+}
+
+.buttons_left_content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 162px;
+    gap: 72px;
+}
+
+.left_btn_left_content {
+    font-family: GilroyBold;
+    background: #F25822;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px rgba(242, 100, 34, 0.123);
+    border-radius: 50px;
+    border-color: #F25822;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.link_left_content {
+    font-family: GilroyBold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.right_img {
+    width: 610px;
+}
+
+.logotype {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
